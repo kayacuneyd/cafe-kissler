@@ -1,0 +1,14 @@
+<?php
+require_once __DIR__ . '/config.php';
+
+header('Content-Type: text/plain');
+?>
+User-agent: *
+Allow: /
+Disallow: /includes/
+Disallow: /components/
+Disallow: /data/
+
+Sitemap: <?= SITE_URL ?>/sitemap.php
+
+
